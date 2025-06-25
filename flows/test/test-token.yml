@@ -1,0 +1,8 @@
+id: hello-kestra
+namespace: visio.projeto_exemplo
+description: Um exemplo simples de flow Kestra que imprime "Hello, Kestra!"
+
+tasks:
+  - id: hello
+    type: io.kestra.core.tasks.log.Log
+    message: "Hello, Kestra!"
